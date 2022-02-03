@@ -1,0 +1,187 @@
+@media screen and (max-width: 1100px) {
+  #home {
+    height: 75vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.7)),
+      url(./images/home-bg.jpeg) no-repeat center;
+  }
+
+  .showcase-title {
+    font-size: 4.5rem;
+  }
+
+  .advert-header {
+    font-size: 3.5rem;
+  }
+
+  .advert-para {
+    font-size: 1.7rem;
+  }
+
+  .advert-image {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  section .container {
+    padding: 4rem 2rem;
+  }
+  section .container > div {
+    flex-basis: 50%;
+    margin: 2rem 0;
+  }
+
+  #advert-two .advert-text,
+  #advert-two .advert-image {
+    margin: 2rem 0;
+  }
+
+  .advert-header,
+  .advert-para {
+    text-align: center;
+  }
+
+  .advert-image {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .showcase-title {
+    width: 100%;
+    font-size: 4rem;
+  }
+
+  .advert-header {
+    font-size: 3rem;
+  }
+
+  .showcase-para_one {
+    font-size: 1.6rem;
+  }
+
+  .showcase-para_two {
+    font-size: 1.4rem;
+  }
+
+  .showcase-email {
+    width: 40rem;
+  }
+
+  #faq {
+    min-height: 45vh;
+    width: 100vw;
+    padding: 3rem 1rem;
+  }
+
+  .faq-box {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .faq-dropdown {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #home {
+    min-height: 50vh;
+  }
+
+  .nav-header .logo {
+    width: 10rem;
+  }
+
+  .btn-pry {
+    font-size: 1.6rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-header {
+    padding: 1.5rem;
+  }
+
+  .showcase-email {
+    width: 35rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .showcase-email input {
+    width: 100%;
+    padding: 1.5rem 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .showcase-email_btn {
+    width: 15rem;
+  }
+
+  .showcase-btn {
+    padding: 1.2rem 0;
+  }
+
+  .faq-email {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .advert-header {
+    font-size: 2.5rem;
+  }
+
+  .advert-para {
+    font-size: 1.5rem;
+  }
+
+  .advert-image img {
+    width: 25rem;
+  }
+
+  #advert-two .advert-image .movie-box img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+  }
+
+  .movie-box {
+    width: 20rem;
+  }
+
+  .movie-text h4 {
+    font-size: 1.4rem;
+  }
+
+  .movie-text a {
+    font-size: 0.8rem;
+  }
+
+  .faq-header {
+    font-size: 2rem;
+  }
+
+  .faq-input p,
+  .faq-para {
+    font-size: 1.4rem;
+  }
+
+  .faq-input i {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+
+  .advert-para {
+    width: 30rem;
+    padding: 1rem;
+  }
+}
